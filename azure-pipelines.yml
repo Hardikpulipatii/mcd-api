@@ -26,7 +26,7 @@ steps:
 
   inputs:
 
-    azureSubscription: '<your-service-connection>'
+    azureSubscription: 'azure-conn'
 
     appName: 'mcd-api-123-eqe0hphcaxe8ebd2'
 
