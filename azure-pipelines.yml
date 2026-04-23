@@ -28,7 +28,7 @@ steps:
 
     azureSubscription: 'azure-conn-final'
 
-    appName: 'mcd-api-123-eqe0hphcaxe8ebd2'
+    appName: 'mcd-api-123'
 
     appType: 'webAppLinux'
 
