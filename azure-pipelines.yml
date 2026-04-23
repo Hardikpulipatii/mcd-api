@@ -4,7 +4,7 @@ trigger:
  
 pool:
 
-  vmImage: 'Default'
+  name: 'Default'
  
 steps:
 
