@@ -4,11 +4,11 @@ trigger:
  
 pool:
 
-  name: 'Default'
+  name: Default
  
 steps:
 
-- task: NodeTool@0
+- task: NodeTool@1
 
   inputs:
 
@@ -26,9 +26,12 @@ steps:
 
   inputs:
 
-    azureSubscription: 'azure-conn'
+    azureSubscription: 'azure-conn-final'
 
     appName: 'mcd-api-123-eqe0hphcaxe8ebd2'
 
+    appType: 'webAppLinux'
+
     package: '.'
+ 
  
